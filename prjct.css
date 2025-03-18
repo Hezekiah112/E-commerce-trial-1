@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    padding-top: 25px;
+
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;    
+}
+.navbar nav ul li a:link, a:visited {
+    text-decoration: none;
+}
+.navbar nav ul a:hover, a:active {
+    color: #404040;
+}
+.container {
+    height: 600px;
+    background-image: url('chair\ and\ lamp.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text {
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    max-width: 1300px;
+    padding-left: 25px;
+    padding-top: 100px;
+    position: absolute;
+    right: 50px;
+    top: 200px;
+}
+h1 {
+    color: #add8e6;
+    font-weight: bold;
+}
+.get {
+    position: absolute;
+    bottom: 120px;
+    right: 200px;
+}
+.get a:link, a:visited {
+    text-decoration: none;
+    color: white;
+    background-color: #404040;
+    padding: 8px 16px;
+
+    /*transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;*/
+}
+.get a:hover, a:active {
+    color: #404040;
+    background-color: #ccc;
+
+    /*transform: translateY(-10px);
+    */
+    
+
+
+}
+.own{
+    color: #404040;
+}
+.searchbox{
+    position: absolute;
+    left: 40%;
+    top: 7%;
+    width: 100px;
+    height: 100px;
+    opacity: 0.3;
+}
+.input_search{
+    width: 300px;
+    height: 35px;
+    border: 0;
+    border-radius: 25px;
+    padding: 12px 25px 12px;
+}
+.icon{
+    cursor: pointer;
+    position: absolute;
+    left: 61%;
+    top: 9%;
+    border-radius: 25px;
+}
+.icon:hover{
+    cursor: pointer;
+    position: absolute;
+    left: 61%;
+    top: 9%;
+    border-radius: 25px;
+    font-size: 15px;
+}
+.gallery{
+    display: inline-block;
+    margin: 20px;
+    width: 200px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*.gallery :hover{
+    border: 1px solid #777
+
+}*/
+.gallery img{
+    width: 200px;
+    height: 250px;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+.title{
+    background-color: #ccc;
+}
+.title h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-weight: lighter;
+}
+.design{
+    color: #ccc;
+    padding-top: 25px;
+    padding-left: 25px;
+    background-color: #404040;
+    height: 300px;
+    background-image: url(design.jpg);
+    padding: 70px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: right;
+    background-size: 300px 200px;
+}
+.gallery_text{
+    display: flex;
+    float: left;
+    font-size: 13px;
+    border: 1px solid #404040;
+    margin: 5px;
+    width: 180px;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: #404040;
+}
+#explore{
+    display: flex;
+    text-align: end;
+    color: #add8e6;
+}
+   
+
+
