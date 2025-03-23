@@ -61,6 +61,7 @@ h1 {
     color: white;
     background-color: #404040;
     padding: 8px 16px;
+    transition: 0.5s;
 
     /*transition-property: transform;
     transition-duration: 0.3s;
@@ -130,11 +131,12 @@ h1 {
     text-align: center;
 }
 .title{
+    color: #404040;
     background-color: #ccc;
 }
-.title h3{
-    display: flex;
-    justify-content: center;
+.title h4{
+    text-decoration: underline;
+    text-align: center;
     padding-top: 20px;
     font-weight: lighter;
 }
@@ -154,21 +156,101 @@ h1 {
 .gallery_text{
     display: flex;
     float: left;
-    font-size: 13px;
-    border: 1px solid #404040;
+    font-size:25px;
+    border: none;
     margin: 5px;
     width: 180px;
     height: auto;
     padding: 20px;
     border-radius: 20px;
-    color: white;
+    color: #ccc;
     background-color: #404040;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 #explore{
     display: flex;
     text-align: end;
     color: #add8e6;
 }
-   
-
-
+.desc{
+    display: inline-block;
+    align-items: flex-start;
+}
+.desc p{
+    color: #404040;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.desc h4{
+    color: #404040;
+    text-decoration: none;
+    float: right;
+}
+.desc .add_to_cart{
+    display: inline-block;
+    color: black;
+    border: 1px solid #969494;
+    border-radius: 25px;
+    width: 80px;
+    height: 30px;
+    margin-top: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.desc .buy_now{
+    display: inline-block;
+    color: white;
+    background-color: #404040;
+    border: 0;
+    border-radius: 20px;
+    width: 80px;
+    height: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.categories{
+     max-height: fit-content;
+     background-color: #ccc;
+}
+.categories h4{
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 5px;
+}
+.top_cat{
+    padding-top: 20px;
+    display: inline-block;
+}
+.couch_pic{
+    padding-left: 20px;
+    position: relative;
+    display: inline-block;
+}
+.lamp_pic{
+    position: relative;
+    display: inline-block;
+}
+.couch h2{
+    color: #ccc;
+    text-decoration-line: underline;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.lamp h2{
+    color: #404040;
+    text-decoration: underline;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.star{
+    margin-top: 5px;
+    float: left;
+}
