@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.check h2{
+    text-align: center;
+    padding-top: 20px;
+}
+.name{
+    text-align: right;
+    margin-right: 20px;
+    border-bottom: 1px solid black;
+    margin-left: 20px;
+    padding: 12px 25px 12px;
+
+}
+.name ul{
+    position: relative;
+    padding-top: 20px;
+}
+.name ul li{
+    display: inline-block;
+    text-align: right;
+    margin-right: 100px;
+}
+.product{
+    float: left;
+    margin-left: 100px;
+}
